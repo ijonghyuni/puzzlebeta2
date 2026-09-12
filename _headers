@@ -1,9 +1,3 @@
-# Unity WebGL Brotli-compressed build files.
-# Cloudflare Pages reads this file from the deployment output directory.
-/Build/*.data.br
-  Content-Encoding: br
-  Content-Type: application/octet-stream
-
 /Build/*.framework.js.br
   Content-Encoding: br
   Content-Type: application/javascript
@@ -12,6 +6,6 @@
   Content-Encoding: br
   Content-Type: application/wasm
 
-/Build/*.symbols.json.br
+/Build/*.data.br
   Content-Encoding: br
   Content-Type: application/octet-stream
